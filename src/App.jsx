@@ -1,4 +1,9 @@
+// useStateHook
+import Counter from "./components/useStateHook/Counter";
+
 const App = () => {
-  return <div></div>;
+  return (
+    <><Counter/></>
+  );
 };
 export default App;
