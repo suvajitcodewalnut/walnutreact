@@ -21,6 +21,7 @@ const WindowSize = () => {
     // CLEANUP
     return () => window.removeEventListener('resize', handleWindowSize);
   }, []);
+
   // RENDER
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center bg-slate-900">
