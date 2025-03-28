@@ -5,6 +5,8 @@ import { FaUser } from 'react-icons/fa';
 import { BsFileEarmarkPost } from 'react-icons/bs';
 import { FaComments } from 'react-icons/fa';
 import { VscDebugRestart } from 'react-icons/vsc';
+import { ImCross } from "react-icons/im";
+
 
 const SocialMedia = () => {
   // STATES
@@ -62,11 +64,11 @@ const SocialMedia = () => {
       <div className="flex flex-col items-center justify-center text-white mt-10 md:mt-15 lg:mt-20 text-2xl">
         <h1 className="mb-4">{streamType.toUpperCase()}</h1>
         {loading && (
-          <div>
+          <div className='m-5'>
             <VscDebugRestart size={30} />
           </div>
         )}
-        {error && <div className="text-red-500">Error: {error}</div>}
+        {error && <div className="flex items-center justify-center  gap-3 text-red-500"><ImCross size={20}/> {error}</div>}
         <div className="w-full max-w-4xl overflow-auto max-h-[70vh] p-4">
           {social.map((item, index) => (
             <div key={index} className="mb-4 p-4 bg-slate-800 rounded-lg">
