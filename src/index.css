@@ -3,3 +3,7 @@
 .button {
   @apply border-2 border-blue-700 p-1 rounded-md hover:cursor-pointer hover:bg-blue-700 transition-all;
 }
+
+.toggle {
+  @apply p-1;
+}

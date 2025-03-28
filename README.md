@@ -11,6 +11,5 @@
 
 Trying to do better ! 
 
-<hr>
 
 ### Cheers ! ✨
