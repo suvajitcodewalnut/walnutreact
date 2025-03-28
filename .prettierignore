@@ -1,0 +1,10 @@
+node_modules
+build
+dist
+public
+coverage
+package-lock.json
+yarn.lock
+.next
+out
+storybook-static
