@@ -28,4 +28,4 @@ const ThemeToggler = () => {
     </div>
   );
 };
-export default ThemeToggler;
+export default ThemeToggler; 
