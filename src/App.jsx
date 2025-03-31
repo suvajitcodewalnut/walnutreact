@@ -1,4 +1,5 @@
 // useStateHook
+import Stopwatch from "./components/useCallbackHook/Stopwatch";
 import SocialMedia from "./components/useEffectHook/SocialMedia";
 import WindowSize from "./components/useEffectHook/WindowSize";
 import RenderMe from "./components/useRefHook/RenderMe";
@@ -8,7 +9,7 @@ import ThemeToggler from "./components/useStateHook/ThemeToggler";
 
 const App = () => {
   return (
-    <><RenderMe/></>
+    <><Stopwatch/></>
   );
 };
 export default App;
