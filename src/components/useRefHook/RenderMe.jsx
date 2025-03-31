@@ -5,9 +5,10 @@ import { IoMdPerson } from 'react-icons/io';
 
 const RenderMe = () => {
   // STATE
-  const [name, setName] = useState(() => {
+  const [setName] = useState(() => {
     return '';
   });
+  // REF
   const renderCount = useRef(0);
 
   // EFFECTS
